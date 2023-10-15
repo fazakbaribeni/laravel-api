@@ -5,6 +5,7 @@ use App\Models\Booking;
 use Illuminate\Http\Request;
 use App\Mail\BookingConfirmation;
 use App\Mail\AdminNotification;
+use Illuminate\Support\Facades\Mail;
 
 class BookingController extends Controller
 {
